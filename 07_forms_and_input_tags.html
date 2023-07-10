@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+<body>
+    <!-- <body background=cloud.jpg></body> -->
+    <h1>This is HTML forms tutorial.</h1>
+    <form action="backend.django">
+        <div>
+        <label for="name">Name</label>
+             <input type="text" name="myName" id="name">
+        </div>
+        <!-- <br> lagayera line space garda ramro hudaina yo kaam css ko help ley garney. -->
+        <div>
+
+          Role: <input type="text" name="myRole">
+        </div>
+
+        <div>
+            Email: <input type="email" name="myEmail">    <!--input:email garda aauxa   ,,name ley backend maa yo tag laai kasari chinney janauxa-->
+        </div>
+        
+        <div>
+            Adress : <input type="address" name="myAddress">
+        </div>
+        
+        <div>
+            Date: <input type="date" name="myDate" id="">
+        </div>
+        
+        <div>
+            <label for="bonus">Bonus:</label>
+            <input type="number" name="myNumber" id="bonus">
+        </div>
+        
+        <div>
+        <label for="eligible"> Are you Eligible? </label>
+        <input type="checkbox" name="myEligibility" id="eligible" > <!-- checked> raakhema by defaulta tick lagainexa-->
+        </div>
+        
+        <label for="gender">Gender:</label>
+        <div>
+        Male<input type="radio" name="myGender" id="gender">
+        Female<input type="radio" name="myGender" id="gender">
+        Other<input type="radio" name="myGender" id="gender">
+        </div>
+        
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="Indica"> Indica</option>
+                <option value="Hyundai Civic" selected>Hyundai Civic</option>
+                <option value="Swift">Swift</option>
+                <option value="Tata">Tata</option>
+            </select>
+        </div>
+
+        <label for="about yourself"> Write about Yourself:</label>
+        <div>
+        <textarea name="" id="about yourself" cols="50" rows="10"></textarea>
+        </div>
+
+        <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+        </div>
+    
+    </form>
+</body>
+</html>
